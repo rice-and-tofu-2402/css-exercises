@@ -1,1 +1,24 @@
+.odd-numbers {
+    background-color: #eea6a6;
+    /*light red/pink background*/
+    font-family: verdana, "DejaVu Sans", sans-serif;
+}
+
+.bigger {
+    font-size: 24px;
+}
+
+#number2 {
+    color: rgb(42, 55, 235);
+    /*blue text*/
+    font-size: 36px;
+}
+
+#number4 {
+    background-color: hsl(125, 76%, 67%);
+    /*light green background*/
+    font-size: 24px;
+    font-weight: bold;
+
+}
 /* Add CSS Styling */
