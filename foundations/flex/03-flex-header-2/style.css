@@ -11,8 +11,6 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 8px;
 
   padding: 8px;
 
@@ -56,7 +54,6 @@ a {
 
 ul {
   display: flex;
-  align-items: center;
   gap: 16px;
 
   padding: 0;
@@ -65,15 +62,9 @@ ul {
   list-style-type: none;
 }
 
-.left-items {
-  display: flex;
-  justify-content: flex-start;
-  gap: 16px;
-
-}
-
+.left-items,
 .right-items {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
   gap: 16px;
 }
