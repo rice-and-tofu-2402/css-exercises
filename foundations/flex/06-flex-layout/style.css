@@ -51,6 +51,10 @@ body {
   align-items: center;
 }
 
+.footer {
+  background-color: #eeeeee;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
