@@ -27,13 +27,16 @@ img {
 
 .info-section {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
+  justify-content: center;
 }
 
 .pair {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  width: 200px;
 }
 
 * {
