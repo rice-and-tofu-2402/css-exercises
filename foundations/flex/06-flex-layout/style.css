@@ -44,15 +44,22 @@ body {
 .header,
 .footer {
   justify-content: space-between;
+  padding: 15px;
 }
 
 .content {
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
 .footer {
   background-color: #eeeeee;
+}
+
+.left-links,
+.right-links {
+  gap: 15px;
 }
 
 ul {
@@ -64,4 +71,8 @@ ul {
 a {
   text-decoration: none;
   color: gray;
+}
+
+button {
+  padding: 10px 20px;
 }
