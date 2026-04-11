@@ -24,3 +24,9 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.info-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
