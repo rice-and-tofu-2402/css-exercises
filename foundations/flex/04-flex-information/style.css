@@ -27,12 +27,13 @@ img {
 
 .info-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: row; 
 }
 
 .pair {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 * {
