@@ -28,7 +28,6 @@ img {
 .info-section {
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 .pair {
