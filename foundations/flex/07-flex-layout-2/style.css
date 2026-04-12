@@ -31,8 +31,11 @@ body {
 
 
 .header {
+  display: flex;
+  align-items: center;
   font-size: 32px;
   font-weight: 900;
+  padding-left: 16px;
 }
 
 ul {
@@ -52,16 +55,30 @@ body {
   flex-direction: column;
 }
 
-.information {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card {
-  width: 300px;
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .middle {
   flex: 1;
   display: flex;
 }
+
+.information {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 24px;
+}
+
+.card {
+  width: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
