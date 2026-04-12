@@ -82,3 +82,12 @@ body {
   align-items: center;
 }
 
+/*correction*/
+
+li {
+  margin-bottom: 16px;
+}
+
+.card {
+  padding: 16px;
+}
